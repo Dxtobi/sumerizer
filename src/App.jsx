@@ -6,6 +6,7 @@ import Header from './components/layouts/Header.layout';
 import Footer from './components/layouts/Footer.layout';
 
 import Home from './pages/home/Home.page';
+import About from './pages/about/About';
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -21,6 +22,7 @@ function App() {
 
 
             <Route exact path='/' element={<Home />} />
+            <Route exact path='/how to use' element={<About />} />
 
 
           </Routes>

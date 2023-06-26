@@ -94,7 +94,7 @@ function Home() {
                     any blog post, article or get information on what any website is all about,
                     All you need is the link of the website.
                 </div>
-                <Search onChangeFunc={onChangeFunc} on_keydown={handleKeyDown} />
+                <Search onChangeFunc={onChangeFunc} on_keydown={handleKeyDown} handleSubmit={handleSubmit} />
             </div>
 
             <div>
